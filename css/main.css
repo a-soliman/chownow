@@ -125,5 +125,45 @@ li a:focus {
 	background-color: #f5f5f5;
 	color: rgba(136, 148, 163, 1);
 }
+/*Services*/
+.services {
+    font-family: 'Proza Libre', sans-serif;
+}
+.services .row {
+	padding: 200px 0;
+}
+.services .servicesOne {
+	padding: 150px 0;
+}
+.services h3 {
+	font-size: 33px;
+    line-height: 36px;
+    color: #36363D;
+    letter-spacing: -.025em;
+    font-weight: 600;
+}
+.services span {
+	letter-spacing: 0.5px;
+    font-weight: 600;
+}
+.services .servicesTwo {
+	background-color: #dc8f89; 
+}
+.servicesThree {
+	background-color: #ececec;
+}
+.services .servicesFour {
+	padding: 100px 0;
+}
+.servicesFour .text {
+	text-align: center;
+    border-left: 3px solid #a7da19;
+    border-right: 3px solid #a7da19;
+    padding: 10px 120px;
+}
+.servicesFour img {
+	max-width: 400px;
+	margin: 20px auto;
+}
 
 
