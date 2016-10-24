@@ -274,6 +274,11 @@ footer .links li {
 .findMe li {
 	display: block;
 }
-
+/*Classes*/
+.expect .selected {
+    background-color: #dc5d54;
+    color: white;
+    border: 1px solid #dc5d54;
+}
 
 
