@@ -211,6 +211,69 @@ li a:focus {
 .secondMonth, .thirdMonth {
 	display: none;
 }
+/*Footer*/
+footer {
+	padding: 100px 0;
+	background-color: #36363d;
+	color: #fff;
+}
+footer h2 {
+	color: #85919f;
+	text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 15px;
+}
+.links {
+	text-align: left;
+}
+.links img {
+	max-width: 50%;
+	display: inline-block;
+}
+.links ul {
+	display: inline-block;
+    padding: 0 10px;
+}
+footer .links li {
+	display: block;
+}
+.social {
+	text-align: center;
+	border-left: 1px solid #434349;
+	border-right: 1px solid #434349;
+	padding: 0 10px;
+}
+.phone h2 {
+	
+}
+.phone:hover{
+	text-decoration: none;
+}
+.phone h2:hover {
+	color: #dc5d54;
+}
+.social ul {
+	padding: 10px;
+	margin-top: 20px;
+}
+.social ul a {
+	font-size: 26px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 12px;
+}
+.social ul a:hover {
+    background-color: #dc5d54;
+    border: 1px solid #dc5d54;
+}
+.findMe {
+	text-align: right;
+}
+.findMe li {
+	display: block;
+}
 
 
 
