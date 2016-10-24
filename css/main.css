@@ -46,6 +46,7 @@ li a:focus {
 	color: #dc5d54;
 	text-decoration: underline;
 }
+
 /*Intro*/
 .intro {
 	background-image: url(https://www.chownow.com/wp-content/uploads/banner-home.jpg);
@@ -86,6 +87,7 @@ li a:focus {
 	color: white;
 	background-color: #dc5d54;
 }
+
 /*about-me*/
 
 .about-me {
@@ -125,6 +127,7 @@ li a:focus {
 	background-color: #f5f5f5;
 	color: rgba(136, 148, 163, 1);
 }
+
 /*Services*/
 .services {
     font-family: 'Proza Libre', sans-serif;
@@ -211,6 +214,7 @@ li a:focus {
 .secondMonth, .thirdMonth {
 	display: none;
 }
+
 /*Footer*/
 footer {
 	padding: 100px 0;
@@ -274,12 +278,15 @@ footer .links li {
 .findMe li {
 	display: block;
 }
+
 /*Classes*/
 .expect .selected {
     background-color: #dc5d54;
     color: white;
     border: 1px solid #dc5d54;
 }
+
+
 @media(max-width: 990px) {
 	.links, .findMe{
 		text-align: center;
@@ -295,5 +302,3 @@ footer .links li {
 	}
 
 }
-
-
