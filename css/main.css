@@ -280,5 +280,20 @@ footer .links li {
     color: white;
     border: 1px solid #dc5d54;
 }
+@media(max-width: 990px) {
+	.links, .findMe{
+		text-align: center;
+		padding: 20px;
+	}
+	.links {
+		border-bottom: 1px solid #434349;
+	}
+	.social {
+		padding: 20px;
+		border: none;
+		border-bottom: 1px solid #434349;
+	}
+
+}
 
 
