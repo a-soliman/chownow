@@ -165,5 +165,52 @@ li a:focus {
 	max-width: 400px;
 	margin: 20px auto;
 }
+/*Expect*/
+.expect {
+	background-image: url(../img/bg.jpg);
+	text-align: center;
+	padding: 100px 0;
+}
+.expextContent {
+	
+}
+.expect h2 {
+	text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    line-height: 20px;
+    margin-bottom: 30px;
+    color: #8894a3;
+}
+.expectControlers h2 {
+	letter-spacing: 0;
+	font-size: 12px;
+	margin: 0;
+	padding: 10px 20px;
+	border: 1px solid #8894a3;
+}
+.expect-text {
+	padding: 20px 70px;
+}
+.expect h2 span {
+	font-size: 30px;
+	border: 2px solid #8894a3;
+	border-radius: 50%;
+	padding: 15px 20px;
+}
+.expect h1 {
+	font-family: 'Proza Libre', sans-serif;
+	color: #7a838e;
+	font-family: initial;
+    text-align: left;
+}
+.expect h1> span {
+	color: #dc5d54;
+}
+.secondMonth, .thirdMonth {
+	display: none;
+}
+
 
 
