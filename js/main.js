@@ -3,4 +3,5 @@ $(document).ready(function() {
 	var secondMonthContent = $(".secondMonth")
 	var thirdMonthContent = $(".thirdMonth")
 	
+	$("#monthOne").find("h2").addClass("selected")
 })
