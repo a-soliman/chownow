@@ -5,7 +5,7 @@ $(document).ready(function() {
 	
 	$("#monthOne").find("h2").addClass("selected")
 
-	$("#monthOne").click(function() {
+	$("#monthOne").click(function(event) {
 		$(".expect-text").css("display", "none")
 		firstMonthContent.fadeIn(1000)
 
@@ -14,7 +14,7 @@ $(document).ready(function() {
 		event.preventDefault();
 	})
 
-	$("#monthTwo").click(function() {
+	$("#monthTwo").click(function(event) {
 		$(".expect-text").css("display", "none")
 			secondMonthContent.fadeIn(1000)
 
@@ -24,7 +24,7 @@ $(document).ready(function() {
 		event.preventDefault();
 	})
 
-	$("#monthThree").click(function() {
+	$("#monthThree").click(function(event) {
 		$(".expect-text").css("display", "none")
 			thirdMonthContent.fadeIn(1000)
 
