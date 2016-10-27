@@ -312,6 +312,48 @@ footer .links li {
 	padding: 10px 20px;
 	margin-top: 20px;
 }
+.ideas {
+	font-family: 'Proza Libre', sans-serif;
+}
+.ideas .row {
+	padding: 200px 0;
+}
+.ideas .electroCafe {
+	background-color: #f5f5f5;
+}
+.ideas h3 {
+	font-size: 33px;
+    line-height: 36px;
+    color: #36363D;
+    letter-spacing: -.025em;
+    font-weight: 600;
+}
+.ideas p {
+	color: #8d98a6;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 27px;
+}
+.info {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 990px) {
 	.links, .findMe{
 		text-align: center;
