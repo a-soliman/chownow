@@ -62,6 +62,7 @@ li a:focus {
 .intro h1 {
 	color: white;
 	font-size: 63px;
+	font-family: cursive;
 }
 .intro p {
 	color: #a2a2a5;
