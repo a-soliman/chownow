@@ -127,6 +127,17 @@ li a:focus {
 	background-color: #f5f5f5;
 	color: rgba(136, 148, 163, 1);
 }
+.about-me p {
+	list-style-type: none;
+    display: inline-block;
+    background-color: #a4adb8;
+    color: #fff;
+    margin: 5px 2px;
+    letter-spacing: 3px;
+}
+.about-me span {
+	background-color: #eef0f4;
+}
 
 /*Services*/
 .services {
