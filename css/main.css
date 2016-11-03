@@ -55,7 +55,7 @@ li a:focus {
 	background-repeat: no-repeat;
 	padding: 224px 0;
 	text-align: center;
-	height: 799px;
+	height: 725px;
 }
 .intro-content {
 
@@ -94,9 +94,9 @@ li a:focus {
 
 .about-me {
 	background-color: #f5f5f5;
-	position: relative;
-    top: -75px;
-    padding: 10px 0 75px 0;
+	/*position: relative;
+    top: -75px;*/
+    padding: 10px 0 50px 0;
 }
 .about-me .aboutContent {
 	text-align: center;
