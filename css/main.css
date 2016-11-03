@@ -53,8 +53,9 @@ li a:focus {
 .intro {
 	background-image: url(https://www.chownow.com/wp-content/uploads/banner-home.jpg);
 	background-repeat: no-repeat;
-	padding: 300px 0;
+	padding: 224px 0;
 	text-align: center;
+	height: 799px;
 }
 .intro-content {
 
