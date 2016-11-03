@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 		} 
 		else {
-			$('.nav').removeClass('fixed-navbar')
+			$('.nav').removeClass('scrolled-nav')
 			// $('nav').addClass('navbar-static')
 
 		}
