@@ -1,4 +1,24 @@
 $(document).ready(function() {
+	
+	//Nav Bar
+	var introHeight = $('.intro').height()
+	
+	$(window).scroll(function() {
+		
+		if(($(this).scrollTop() > introHeight) && ($(this).width() > 769 )) {
+			$('.nav').addClass('scrolled-nav')
+			console.log("now")
+			// $('nav').removeClass('navbar-static')
+
+		} 
+		else {
+			$('.nav').removeClass('fixed-navbar')
+			// $('nav').addClass('navbar-static')
+
+		}
+	})
+
+	//Carousel
 	var firstMonthContent = $(".firstMonth")
 	var secondMonthContent = $(".secondMonth")
 	var thirdMonthContent = $(".thirdMonth")
